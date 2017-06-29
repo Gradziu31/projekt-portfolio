@@ -1,0 +1,12 @@
+@media all and (max-width:550px) {
+	header{
+		.header--text{
+			h1{
+				font-size: 0.6em;
+			}
+		}
+		.header--text--under{
+				font-size: 0.8em;
+		}
+	}
+}

@@ -1,0 +1,32 @@
+.single--post{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .on--left{
+    background: red;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    .content--left--post{
+      width: 600px;
+      img{
+        width: 580px;
+        height: 1000px;
+      }
+    }
+  }
+  .on--right{
+    background: blue;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .content--right--post{
+      width: 600px;
+    }
+  }
+}

@@ -1,0 +1,173 @@
+.section--one{
+	background: #eaeaea;
+	.about-me{
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		h2{
+			font-size: 1.8em;
+		  font-family: 'Viga', sans-serif;
+			padding: 30px;
+		}
+		.about-me--text{
+			color: #F54400;
+			font-family: 'Ek Mukta';
+		}
+		.info--box{
+			display: flex;
+			flex-wrap: nowrap;
+			flex-direction: row;
+			h3{
+		 		font-family: 'Viga', sans-serif;
+				font-size: 1em;
+				color: silver;
+				padding: 20px;
+			}
+			p{
+				font-family: 'Ek Mukta';
+				text-align: left;
+				font-size: 1.1em;
+			}
+			span{
+				color: #F54400;
+			}
+			.box{
+				width: 30%;
+				margin: 0px 10px;
+				img{
+					margin-bottom: -5px;
+					height: 300px;
+
+				}
+			}
+			.box--contact{
+				.social--media{
+					display:flex;
+					flex-wrap: wrap;
+					flex-direction: row;
+					text-align: center;
+					justify-content: center;
+					i{
+					font-size: 3em;
+					padding: 25px;
+					transition: 400ms;
+						&:hover{
+						color: #F54400;
+						}
+					}
+					a{
+						color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media all and (max-width: 800px) {
+	.section--one{
+		.about-me{
+			.info--box{
+				flex-direction: column;
+				margin: 0 auto;
+				.box{
+					margin: 0 auto;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.section--two{
+	min-height: 400px;
+	background-color: #666666;
+	.my--project{
+		width: 80%;
+		margin: 0 auto;
+		h2{
+			font-size: 1.8em;
+		  font-family: 'Viga', sans-serif;
+			padding: 30px 0px 10px 0px;
+			text-align: center;
+		}
+		h3{
+			color: #F54400;
+			font-family: 'Ek Mukta';
+			text-align: center;
+			font-size: 1em;
+			padding: 10px;
+		}
+
+		.projects{
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: space-around;
+			.single--project{
+        a{
+				img{
+					height: 350px;
+					width: 250px;
+					margin: 10px;
+					-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.6);
+					-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.6);
+					box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+					transition: 400ms;
+					&:hover{
+						-webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,1);
+						-moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,1);
+						box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+					}
+				}
+      }
+			}
+		}
+	}
+}
+
+
+.small_photo{
+  img{
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.6);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.6);
+    transition: 400ms;
+    &:hover{
+      -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,1);
+      -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,1);
+      box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+    }
+  }
+}
+
+
+.section--three{
+	background: #eaeaea;
+		h2{
+			font-size: 1.8em;
+			font-family: 'Hind', sans-serif;
+			padding: 30px 0px 10px 0px;
+			text-align: center;
+			font-weight: 700;
+		}
+		h3{
+			color: #F54400;
+			font-family: 'Hind', sans-serif;
+			text-align: center;
+			font-size: 1em;
+			padding: 10px;
+			font-weight: 700;
+		}
+			.languages{
+				p{
+					font-size: 1.1em;
+				  font-family: 'Hind', sans-serif;
+					text-align: center;
+					padding: 2px;
+				}
+			}
+}
