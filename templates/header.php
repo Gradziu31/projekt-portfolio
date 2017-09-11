@@ -1,14 +1,14 @@
 <div class="container-full">
-    <header>
-      <div class="header--text">
-        <h1 class="animated zoomIn">KRYSTIAN GRADEK</h1>
-      </div>
+    <header> 
+      <a href="<?php bloginfo('url');?>"><div class="header--text animated fadeIn">
+          <h1 class="animated zoomIn">KRYSTIAN GRADEK</h1>
+      </div></a>
       <p class="header--text--under animated zoomIn">FRONT-END DEVELOPMENT</p>
     </header>
 
-    <script type="text/javascript">
+    <script type="text/javascript">  
     function getOS() {
-    var userAgent = window.navigator.userAgent,
+    var userAgent = window.navigator.userAgent, 
     platform = window.navigator.platform,
     macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
     windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
@@ -32,10 +32,7 @@
 
     var header = document.querySelector("header");
 
-    if(getOS() == "iOS"){
+    if(getOS() == "iOS" || getOS() == "Android"){
     header.className += "addjs";
-    }
-    if(getOS() == "Android"){
-    header.className += "addjs";
-    }
+    } 
     </script>

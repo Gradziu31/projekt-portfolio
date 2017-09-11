@@ -2,8 +2,9 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Chau+Philomene+One|Contrail+One|Luckiest+Guy|Russo+One|Suez+One|Viga" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Ek+Mukta|Hind+Vadodara|Palanquin+Dark|Sintony|Varela" rel="stylesheet">
+  
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow|Asap|Fjalla+One|Francois+One|Hind|PT+Sans|Pacifico|Quicksand|Raleway|Ubuntu|Varela+Round|Viga&amp;subset=latin-ext" rel="stylesheet">
+
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

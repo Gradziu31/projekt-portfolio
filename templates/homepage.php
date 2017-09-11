@@ -31,7 +31,7 @@ Template Name: Home Page
   <h2 class="box">MOJE PRACE</h2>
   <h3 class="box">kilka ostatnich prac!</h3>
   <div class="projects small_photo">
-       <?php $args = array( 'numberposts' => 10 );
+       <?php $args = array( 'numberposts' => 20 );
          $lastposts = get_posts( $args );
         foreach($lastposts as $post) : setup_postdata($post); ?>
               <!-- <h3 class="text-left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3> -->

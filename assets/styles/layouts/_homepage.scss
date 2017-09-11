@@ -4,6 +4,9 @@
 		width: 80%;
 		margin: 0 auto;
 		text-align: center;
+        @media all and (max-width:1400px){
+            width: 90%;
+        }
 		h2{
 			font-size: 1.8em;
 		  font-family: 'Viga', sans-serif;
@@ -11,20 +14,21 @@
 		}
 		.about-me--text{
 			color: #F54400;
-			font-family: 'Ek Mukta';
+			font-family: "Varela Round", sans-serif;
+            font-size: 1.1em;
 		}
 		.info--box{
 			display: flex;
 			flex-wrap: nowrap;
 			flex-direction: row;
 			h3{
-		 		font-family: 'Viga', sans-serif;
-				font-size: 1em;
-				color: silver;
-				padding: 20px;
+		 		font-family: 'PT Sans', sans-serif;
+				font-size: 1em; 
+				color: #000000;
+				padding: 20px; 
 			}
 			p{
-				font-family: 'Ek Mukta';
+				font-family: 'Varela Round', sans-serif;
 				text-align: left;
 				font-size: 1.1em;
 			}
@@ -75,27 +79,33 @@
 					width: 100%;
 				}
 			}
-		}
+		} 
 	}
 }
 
 .section--two{
 	min-height: 400px;
-	background-color: #666666;
+//	background-color: #666666;
+    background-image: url("https://static.pexels.com/photos/220634/pexels-photo-220634.jpeg"); 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter:alpha(opacity=50);
+
 	.my--project{
-		width: 80%;
+		width: 80%; 
 		margin: 0 auto;
 		h2{
-			font-size: 1.8em;
+			font-size: 1.8em; 
 		  font-family: 'Viga', sans-serif;
 			padding: 30px 0px 10px 0px;
 			text-align: center;
 		}
 		h3{
 			color: #F54400;
-			font-family: 'Ek Mukta';
+			font-family: "Varela Round", sans-serif;
 			text-align: center;
-			font-size: 1em;
+			font-size: 1.1em;
 			padding: 10px;
 		}
 
@@ -156,15 +166,14 @@
 		}
 		h3{
 			color: #F54400;
-			font-family: 'Hind', sans-serif;
+			font-family: "Varela Round", sans-serif;
 			text-align: center;
-			font-size: 1em;
-			padding: 10px;
-			font-weight: 700;
+			font-size: 1.1em;
+            padding: 10px;
 		}
 			.languages{
 				p{
-					font-size: 1.1em;
+					font-size: 1em;
 				  font-family: 'Hind', sans-serif;
 					text-align: center;
 					padding: 2px;

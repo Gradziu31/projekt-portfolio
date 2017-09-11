@@ -1,32 +1,77 @@
-.single--post{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  .on--left{
-    background: red;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    .content--left--post{
-      width: 600px;
-      img{
-        width: 580px;
-        height: 1000px;
-      }
+.content-post {
+    background-color: #eaeaea;
+    .single--post {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0px;
+        @media all and (max-width: 900px) {
+            width: 95%;
+        }
+        @media all and (max-width:700px) {
+            flex-wrap: nowrap;
+            flex-direction: column-reverse;
+        }
+        .on--left {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            @media all and (max-width: 700px) {
+                width: 100%;
+                padding: 20px;
+            } 
+            .content--left--post {
+                img {
+                    max-width: 580px;
+                    height: auto;
+                    width: 100%;
+                    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .6); 
+                    transition-duration: 150ms;
+                    @media all and (max-width: 700px) {
+                        max-width: 700px;
+                    }
+                    &:hover { 
+                        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, .5);
+                    }
+                }
+            }
+        }
+        .on--right {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            padding: 0px 20px;
+            @media all and (max-width: 700px) {
+                width: 100%;
+            }
+            .content--right--post {
+                max-width: 600px; 
+                h1 {
+                    font-size: 1.4em;
+                    font-family: 'Hind', sans-serif;
+                }
+                p {
+                    font-family: 'Ubuntu', sans-serif;
+                }
+                .languages {
+                    h3 {
+                        font-family: 'PT Sans', sans-serif;
+                        padding-bottom: 10px;
+                    }
+                    .display_tech {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
     }
-  }
-  .on--right{
-    background: blue;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    .content--right--post{
-      width: 600px;
-    }
-  }
 }
