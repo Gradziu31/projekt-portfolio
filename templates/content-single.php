@@ -29,16 +29,26 @@
                 <?php
                   $html = get_field('html');
                   $js = get_field('js');
-                  $php = get_field('php');
+                  $php = get_field('php'); 
                   $gulp = get_field('gulp');
                   $wp = get_field('wp');
+                  $sass = get_field('sass');  
+                  $node = get_field('node'); 
+                  $jq = get_field('jq'); 
                 ?>
                     <?php if( !empty($html) ): ?>
                        <hr>
                         <div class="languages">
                            <h3>Wykorzystane technologie:</h3>
                             <div class="display_tech">
-                                <img class="html_img" src="<?php echo $html['url']; ?>" alt="html">
+                                <img class="html_img" src="<?php echo $html['url']; ?>">
+                                <img class="sass_img" src="<?php echo $sass['url']; ?>">
+                                <img class="gulp_img" src="<?php echo $gulp['url']; ?>"> 
+                                <img class="wp_img" src="<?php echo $wp['url']; ?>">
+                                <img class="node_img" src="<?php echo $node['url']; ?>">
+                                <img class="jq_img" src="<?php echo $jq['url']; ?>">
+                                <img class="php_img" src="<?php echo $php['url']; ?>">
+                                <img class="js_img" src="<?php echo $js['url']; ?>">
                             </div>
                         </div>
                     <?php endif; ?>
